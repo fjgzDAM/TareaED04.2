@@ -16,7 +16,7 @@ public class FranciscoJavierGarciaZarcoGIT {
         // TODO code application logic here
         Scanner sc = new Scanner(System.in);
         
-        int x,y,z;
+        double x,y,z;
         
         System.out.print("Introduce el primer número para la suma: ");
         x = sc.nextInt();
@@ -24,7 +24,7 @@ public class FranciscoJavierGarciaZarcoGIT {
         System.out.print("Introduce el segundo número para la suma: ");
         y = sc.nextInt();
         
-        z = x+y;
+        z = x/y;
         
         System.out.println("El resultado es " + z);
         sc.close();
