@@ -25,7 +25,7 @@ public class FranciscoJavierGarciaZarcoGIT {
         System.out.print("Introduce el segundo número para la suma: ");
         y = sc.nextInt();
         
-        z = x+y;
+        z = x*y;
         
         System.out.println("El resultado es " + z);
         sc.close();
