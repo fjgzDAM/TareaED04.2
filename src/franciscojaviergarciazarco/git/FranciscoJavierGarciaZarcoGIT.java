@@ -13,7 +13,7 @@ public class FranciscoJavierGarciaZarcoGIT {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Pruega de merge para crear conflictos");
+        System.out.println("Prueba de merge para crear conflictos");
         
     }
     
