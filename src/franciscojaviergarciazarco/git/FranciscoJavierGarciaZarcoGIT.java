@@ -1,6 +1,8 @@
 
 package franciscojaviergarciazarco.git;
 
+import java.util.Scanner;
+
 
 /**
  *
@@ -13,7 +15,20 @@ public class FranciscoJavierGarciaZarcoGIT {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Prueba de merge para crear conflictos");
+               Scanner sc = new Scanner(System.in);
+        
+        int x,y,z;
+        
+        System.out.print("Introduce el primer número para la suma: ");
+        x = sc.nextInt();
+        
+        System.out.print("Introduce el segundo número para la suma: ");
+        y = sc.nextInt();
+        
+        z = x+y;
+        
+        System.out.println("El resultado es " + z);
+        sc.close();
         
     }
     
