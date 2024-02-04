@@ -17,17 +17,17 @@ public class FranciscoJavierGarciaZarcoGIT {
         // TODO code application logic here
                Scanner sc = new Scanner(System.in);
         
-        int x,y,z;
+        int factor1,factor2,producto;
         
-        System.out.print("Introduce el primer número para la suma: ");
-        x = sc.nextInt();
+        System.out.println("Introduce el primer factor para la multiplicación: ");
+        factor1 = sc.nextInt();
         
-        System.out.print("Introduce el segundo número para la suma: ");
-        y = sc.nextInt();
+        System.out.println("Introduce el segundo factor para la multiplicación: ");
+        factor2 = sc.nextInt();
         
-        z = x*y;
+        producto = factor1*factor2;
         
-        System.out.println("El resultado es " + z);
+        System.out.println("El producto es " + producto);
         sc.close();
         
     }
